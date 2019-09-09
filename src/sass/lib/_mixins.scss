@@ -1,0 +1,34 @@
+@mixin bg_image($url, $size, $pos: center){
+  background-repeat: no-repeat;
+  background-image: url($url);
+  background-size: $size;
+  background-position: $pos;
+}
+
+@mixin box_padding($top, $bottom, $left, $right){
+  padding-top: $top;
+  padding-bottom: $bottom;
+  padding-left: $left;
+  padding-right: $right;
+}
+
+@mixin breakpoint-down($width){
+  $max: only screen and (max-width: $width);
+  @media #{$max}{
+    @content;
+  }
+}
+
+@mixin breakpoint-up($width){
+  $min: only screen and (min-width: $width);
+  @media #{$min}{
+    @content;
+  }
+}
+
+@mixin breakpoint-between($min, $max){
+  $between: only screen and (min-width: $min) and (max-width: $max);
+  @media #{$between}{
+    @content;
+  }
+}

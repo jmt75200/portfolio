@@ -1,0 +1,26 @@
+/* Responsive: Add to specific elements 
+  Usage: 
+  .class/#id {
+    @include breakpoint-down(450px){css properties: values;}
+  }
+*/
+@mixin breakpoint-down($width){
+  $max: "only screen and (max-width: $width)";
+  @media #{$max}{
+    @content;
+  }
+}
+
+@mixin breakpoint-up($width){
+  $min: "only screen and (min-width: $width)";
+  @media #{$min}{
+    @content;
+  }
+}
+
+@mixin breakpoint-between($min, $max){
+  $between: "only screen and (min-width: $min) and (max-width: $max)";
+  @media #{$between}{
+    @content;
+  }
+}
