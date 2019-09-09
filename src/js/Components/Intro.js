@@ -26,6 +26,11 @@ const intro = () =>{
       </div>
       <div className="Sub-aside">
         <h2>Skillset</h2>
+        <p className="side-titles">Designer</p>
+        <p>InDesign , Photoshop, Illustrator, AfterEffects, Sketch, Google Docs, Google Sheets, VS Code, Sublime Text, Marketing Campaigns, Prototyping, App Design, UX Design, Marvel, Invision</p>
+        <p className="side-titles">Developer</p>
+        <p><b>Front-end Development:</b> HTML, CSS, SASS, Javascript, JQuery, React, React Native, Project Architechture, UI development</p>
+        <p><b>Back-end Development:</b> Node.js, WebPack, MYSQL, Firebase, AWS</p>
       </div>
     </div>
   )

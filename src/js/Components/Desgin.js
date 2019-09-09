@@ -21,7 +21,7 @@ const design = () =>{
   )
 
   return (
-    <div className="Container">
+    <div className="Container Design">
       <h1 className="Super-title">Projects</h1>
       {showcase}
     </div>

@@ -19,7 +19,7 @@ body{
   margin: -21px;
   background-color: $eggshell;
   font-size: 16px;
-  width: 99%;
+  width: 99.9%;
 }
 
 .Aside{
@@ -195,10 +195,10 @@ h3{
   }
   .Left{
     flex: 1 0 30%;
-    border-right: 1px solid $dark_accent;
     padding-right: 15px;
   }
   .Right{
+    border-left: 1px solid $dark_accent;
     padding-left: 25px;
     position: relative;
     .circle-dot{
@@ -207,7 +207,7 @@ h3{
       // background-color: $eggshell;
       width: 20px;
       height: 17px;
-      padding-top: 10px;
+      padding-top: 5px;
       .dot{
         width: 15px;
         height: 15px;
@@ -218,6 +218,14 @@ h3{
     }
     h2{
       margin-bottom: 5px;
+    }
+  }
+}
+
+.Design .Single{
+  .Left{
+    p{
+      font-size: 0.9em;
     }
   }
 }
