@@ -20,7 +20,9 @@ const singleEntry = (props) => {
         <h3>{props.time}</h3>
       </div>
       <div className="Right">
-        <span className="circle-dot"></span>
+        <div className="circle-dot">
+          <div className="dot"></div>
+        </div>
         <h2>{props.company}</h2>
         <h3><span className="r-position">{props.position}</span></h3>
         <p><b>{props.desc}</b></p>

@@ -89,10 +89,9 @@ h3{
       font-size: calc(12px + (25 - 12) * ((100vw - 320px) / (1600 - 320)));
     }
   }
-  .Contact{
-    padding: 20px;
+  .Sub-aside{
     color: white;
-    @include box_padding(15px, 15px, 15%, 15%);
+    @include box_padding(25px, 15px, 15%, 15%);
 
     .side-titles{
       margin: 15px 0; 
@@ -165,6 +164,15 @@ h3{
   // @include box_padding(0, 10px, 0, 0);
   &:first-child{
     padding-top: 35px;
+    .circle-dot{
+      background-color: $eggshell;
+    }
+  }
+
+  &:last-child{
+    .job-list{
+      padding-bottom: 0;
+    }
   }
 
   h3{
@@ -194,13 +202,19 @@ h3{
     padding-left: 25px;
     position: relative;
     .circle-dot{
-      width: 15px;
-      height: 15px;
-      border: 1px solid $dark_accent;
-      border-radius: 50%;
       position: absolute;
       top: 0; left: -9px;
-      background-color: $eggshell;
+      // background-color: $eggshell;
+      width: 20px;
+      height: 17px;
+      padding-top: 10px;
+      .dot{
+        width: 15px;
+        height: 15px;
+        border: 1px solid $dark_accent;
+        border-radius: 50%;
+        background-color: $eggshell;
+      }
     }
     h2{
       margin-bottom: 5px;
@@ -209,7 +223,7 @@ h3{
 }
 
 .job-list{
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 .color-bg{
   background-color: $dark_accent;

@@ -12,7 +12,7 @@ const intro = () =>{
       <div className="bw-slant">
         <img src="./dist/assets/white-slant.png" alt="deco" />
       </div>
-      <div className="Contact">
+      <div className="Sub-aside">
         <h2>Contact Info</h2>
         <div className="Location">
           <h4 className="side-titles">Location</h4> 
@@ -23,6 +23,9 @@ const intro = () =>{
           <a href="https://www.linkedin.com/in/joelletorneros/">Linkedin/JoelleTorneros</a>
           <a href="https://github.com/jmt75200">Github/JMT75200</a>
         </div>
+      </div>
+      <div className="Sub-aside">
+        <h2>Skillset</h2>
       </div>
     </div>
   )
