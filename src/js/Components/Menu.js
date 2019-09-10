@@ -1,11 +1,11 @@
 import React from 'react';
 
-const menu = () =>{
+const menu = (props) =>{
   return (
     <div className="Menu">
       <ul className="nav-container">
-        <li>Resume</li>
-        <li>Design</li>
+        <li onClick={() => props.click(false)}>Resume</li>
+        <li onClick={() => props.click(true)}>Projects</li>
       </ul>
     </div>
   )

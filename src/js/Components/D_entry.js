@@ -13,22 +13,37 @@ const singleEntry = (props) => {
       })}
     </div>
   )
+  const [toolState] = useState(props.tools);
+  const tool = (
+    <div className="tool-list">
+      {toolState.map((item, idx)=>{
+        return (
+          <p key={idx}>{item}</p>
+        )
+      })}
+    </div>
+  )
   return(
-    <div className="Single grid-wrap">
-      <div className="Left">
+    <div className="Single project-wrap">
+      <div className="image-wrap">
+      <img src={props.imageOne} alt={props.name}/>
+      </div>
+      <div className="project-intro">
         <h2>{props.name}</h2>
         <p>{props.desc}</p>
       </div>
-      <div className="Right">
-        <div className="circle-dot">
+      <div className="project-overview">
+        {/* <div className="circle-dot">
           <div className="dot"></div>
-        </div>
+        </div> */}
         {overview}
-        <p>{props.tools}</p>
-        <div className="job-list">
-          <img src={props.imageOne} alt={props.name}/>
-          <img src={props.imageTwo} alt={props.name}/>
-        </div>
+      </div>
+      <div className="image-wrap">
+        <img src={props.imageTwo} alt={props.name}/>
+      </div>
+      <div className="project-resp">
+        <h3>Responsibilities &amp; Tools</h3>
+        {tool}
       </div>
     </div>
   )

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 // Styles
 import './sass/index.scss';
 
@@ -6,11 +6,21 @@ import './sass/index.scss';
 import Design from './js/Components/Desgin';
 import Intro from './js/Components/Intro';
 // import Menu from './js/Components/Menu';
-import Mission from './js/Components/Mission';
+// import Mission from './js/Components/Mission';
 import Resume from './js/Components/Resume';
 
-
 const App = props => {
+  const [viewState, setViewState] = useState(false)
+  const clickView = (show) =>{
+    setViewState(show);
+  }
+  
+  let showView;
+  if(viewState){
+    showView = <Design />
+  }else{
+    showView = <Resume />
+  }
   return (
     <div className="App">
       <div className="Aside">
@@ -23,12 +33,24 @@ const App = props => {
             <h1 className="name-title">Joelle Marie Torneros</h1>
             <h2>UX/UI Designer | Full Stack Web Developer</h2>
             <div className="line-accent-top"></div>
-            {/* <Menu /> */}
           </div>
         </div>
-        <Resume />
-        <Mission />
-        <Design />
+        <div className="Menu">
+          <ul className="nav-container">
+            <li
+              onClick={() => clickView(false)}
+              className={viewState ? null : 'active'}
+            >Resume</li>
+            <li 
+              onClick={() => clickView(true)}
+              className={viewState ? 'active' : null}
+            >Projects</li>
+          </ul>
+        </div>
+        {showView}
+        {/* <Resume /> */}
+        {/* <Mission /> */}
+        {/* <Design /> */}
       </div>
     </div>
   );

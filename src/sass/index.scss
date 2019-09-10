@@ -76,6 +76,29 @@ h3{
   // }
 }
 
+.Menu{
+  width: 70%;
+  margin: 0 auto;
+  ul{
+    list-style-type: none;
+    padding: 0;
+    li{
+      display: inline-block;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-bottom: 1px solid $eggshell;
+      text-transform: uppercase;
+      &:hover{
+        color: white;
+        background-color: $lines;
+      }
+      &.active{
+        border-bottom: 1px solid $dark_accent;
+      }
+    }
+  }
+}
+
 .Container{
   width: 70%;
   margin: 0 auto;
@@ -226,10 +249,31 @@ h3{
   }
 }
 
-.Design .Single{
-  .Left{
-    p{
-      font-size: 0.9em;
+// .Design .Single{
+//   .Left{
+//     p{
+//       font-size: 0.9em;
+//     }
+//   }
+// }
+
+.Design{
+  .Single{
+    .project-intro{
+      text-align: center;
+      padding: 50px 20px;
+      color: $charcoal;
+      border-bottom: 1px solid $lines;
+      h2{
+        font-size: calc(25px + (40 - 12) * ((100vw - 320px) / (1600 - 320)));
+      }
+    }
+    .project-resp{
+      padding: 50px 0 150px;
+      text-align: center;
+    }
+    .project-overview{
+      padding: 20px 0 40px;
     }
   }
 }
