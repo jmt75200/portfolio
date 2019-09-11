@@ -9,7 +9,7 @@ const r_entry = {
       job_desc:["Collaborated with UX designer and content writer to enhance and developed custom designed UI features using front-end technologies such as HTML, CSS/SASS, Javascript/Jquery, Coldfusion Application and MySQL database.", "Lead in JavaScript  API integration for vital features such as a fully customized payment flow for internal eCommerce system. Notably led the web to print feature that allows users to create and purchase books from web created content.", "Incorporates leadership, creative and logical analytical skills to breakdown large features into manageable tasks and user stories from UX design to data storage. Produced technical documents for user/QA testing upon completing large features. "]
     },
     {
-      company: 'Freelance',
+      company: 'Joelle Torneros, LLC',
       location: 'oahu, hawaii',
       time: 'August 2019 - June 2009',
       company_desc:"There is a lot to learn by being your own boss. On the one hand there is freedom and the other, utter chaos. Finding balance is key. Applying strength and courage is a must. There is so much that I have gained in growth and understanding about the Industry of Technology and that of myself.",
