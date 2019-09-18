@@ -7,20 +7,27 @@ import Design from './js/Components/Desgin';
 import Intro from './js/Components/Intro';
 // import Menu from './js/Components/Menu';
 // import Mission from './js/Components/Mission';
+import Process from './js/Components/Process';
 import Resume from './js/Components/Resume';
 
 const App = props => {
-  const [viewState, setViewState] = useState(false)
+  // let showView = <Resume />;
+  const [viewState, setViewState] = useState('resume')
   const clickView = (show) =>{
     setViewState(show);
   }
-  
-  let showView;
-  if(viewState){
-    showView = <Design />
-  }else{
-    showView = <Resume />
+
+  const showView = () =>{
+    switch(viewState){
+      case 'projects':
+          return <Design />;
+      case 'process':
+          return <Process />;
+      default: 
+          return <Resume />;
+    }
   }
+
   return (
     <div className="App">
       <div className="Aside">
@@ -38,16 +45,20 @@ const App = props => {
         <div className="Menu">
           <ul className="nav-container">
             <li
-              onClick={() => clickView(false)}
-              className={viewState ? null : 'active'}
+              onClick={() => clickView('resume')}
+              className={viewState === 'resume' ? 'active' : null}
             >Resume</li>
+            {/* <li 
+              onClick={() => clickView('process')}
+              className={viewState === 'process' ? 'active' : null}
+            >Process</li> */}
             <li 
-              onClick={() => clickView(true)}
-              className={viewState ? 'active' : null}
+              onClick={() => clickView('projects')}
+              className={viewState === 'projects' ? 'active' : null}
             >Projects</li>
           </ul>
         </div>
-        {showView}
+        {showView()}
         {/* <Resume /> */}
         {/* <Mission /> */}
         {/* <Design /> */}

@@ -6,7 +6,7 @@ const r_entry = {
       time: 'August 2019 - June 2015',
       company_desc:'JamBios is a platform for remembering, writing and sharing life stories. Privately or with friends, create  online memoir books and chronicle your life. Remember. Together.',
       position: 'Senior Web Developer',
-      job_desc:["Collaborated with UX designer and content writer to enhance and developed custom designed UI features using front-end technologies such as HTML, CSS/SASS, Javascript/Jquery, Coldfusion Application and MySQL database.", "Lead in JavaScript  API integration for vital features such as a fully customized payment flow for internal eCommerce system. Notably led the web to print feature that allows users to create and purchase books from web created content.", "Incorporates leadership, creative and logical analytical skills to breakdown large features into manageable tasks and user stories from UX design to data storage. Produced technical documents for user/QA testing upon completing large features. "]
+      job_desc:["Spearheaded core front end code base for both desktop and mobile with initial features for private and collaborative writing including  custom book like navigations, registration  for multiple user types, and views for different types of permissions.","Introduced a small development team to GitHub and Git management flows, SASS compiled through gulp and lead  integration of HTML and  javascript/jquery functionality with coldfusion 2016.","Architectured internal payment flow, UI payment forms and integrated Authorize.Net Javascript API for vital eCommerce systems such as purchased books, pdfs, premium book cover images and internal rewards program allowing the company to gain revenue.","Played a major role in shaping the user experience and developed the UI flow for the large scaled buy a book process which included custom book covers, choosing web content, making a purchase, creating  web content to pdf format then sending order to print. Increased revenue and allowed users to create keepsake memoir books."]
     },
     {
       company: 'Joelle Torneros, LLC',
@@ -14,7 +14,7 @@ const r_entry = {
       time: 'August 2019 - June 2009',
       company_desc:"There is a lot to learn by being your own boss. On the one hand there is freedom and the other, utter chaos. Finding balance is key. Applying strength and courage is a must. There is so much that I have gained in growth and understanding about the Industry of Technology and that of myself.",
       position: 'Designer & Developer',
-      job_desc:['Extensive knowledge about the life cycle of design and development as a business professional.','Composed Print, Branding, and Promotional materials for strategic marketing campaigns using Adobe creative suite. Brand designing included but not limited to marketing materials, letterhead and web design.', 'Developed and managed multiple web clients to construct websites on multiple different CMS platforms such as Wordpress, AirShip CMS, and Squarespace  using PHP, CSS and JavaScript Frameworks (React, React Native, Angular), HTML, and Git/GitHub . Piloted third party integrations such as Magento, WooCommerce, Social Media plug-ins and SEO enhancements for Wordpress sites. ']
+      job_desc:["Gained extensive knowledge about the life cycle of design and development as a business professional in order to create deliverables that  focus on increasing client  profits and customer base.","Composed print, branding guides, and promotional materials for custom designed strategic marketing campaigns using Adobe creative suite to increase customer engagement and establish company identity.","Researched customer and user profiles to create wireframes, user journey road maps, and used analytics to measure impact of designs and improve user centric features.","Transformed and managed dozens of  web clients to construct websites on multiple different CMS platforms such as Wordpress, AirShip CMS, and Squarespace  using PHP, CSS and JavaScript Frameworks (React, React Native, Angular), HTML, and Git/GitHub. Piloted third party integrations such as Magento, WooCommerce, Social Media plug-ins and SEO enhancements for Wordpress sites."]
     },
     {
       company: 'Junior DevLeague',
@@ -22,7 +22,7 @@ const r_entry = {
       time: 'July 2017 - August 2016',
       company_desc:"Expanding Hawaii's tech community by introducing the young minds of Waipahu High school students to app development.",
       position: 'Javascript Instructor',
-      job_desc:["Display quality leadership in teaching a class of 18 about the life cycle of web and app development. Created and executed instructional lesson plans of basic tool and technologies such as  HTML, CSS,  Javascript, Git/Github, and Sublime Text."]
+      job_desc:["Taught and mentored a class of 18 high school students in Hawaii’s first accredited programming class teaching app development.","Created and executed instructional lesson plans of basic tool and technologies such as  HTML, CSS,  Javascript, Git/Github, and Sublime Text."]
     },
     {
       company: 'Cool Roof Store',
@@ -30,7 +30,7 @@ const r_entry = {
       time: 'December 2014 - November 2012',
       company_desc:'The Cool Roof Store sells heat reflective coatings that simply last longer than ordinary paints — for your roofs, walls and decks.',
       position: 'Lead Designer & Web Developer',
-      job_desc:['Responsible for leading and managing all facets of web design and development using Wordpress for 3 independent company websites including project prioritization, strategic planning, conceptual design, development, execution, implementation and testing.','Specialized in Print, Branding, and Promotional materials for strategic marketing campaigns using Adobe Creative Suite producing large banners promo materials for monthly events.','Online marketing manager for social media, Google Adwords campaigns, and SEO including traffic analysis and reporting with Google Analytics.']
+      job_desc:["Responsible for leading and managing all facets of web design and development using Wordpress for 3 independent company websites including project prioritization, strategic planning, conceptual design, development, execution, implementation and testing.","Specialized in Print, Branding, and Promotional materials for strategic marketing campaigns using Adobe Creative Suite producing large banners promo materials for monthly events tasked to increase store revenue.","Online marketing manager for social media, Google Adwords campaigns,and SEO including traffic analysis and reporting with Google Analytics to stimulate store revenue."]
     },
     {
       company: 'Leakmaster Roofing & Waterproofing',
@@ -38,7 +38,7 @@ const r_entry = {
       time: 'December 2014 - November 2012',
       company_desc:'Hawaii owned roofing contractor - all roofs + repair.',
       position: 'Lead Grphic Designer & Web Developer',
-      job_desc:['Responsible for leading and managing all facets of web design and development using Wordpress for company website including project prioritization, strategic planning, conceptual design, development, execution, implementation and testing.','Spearheaded Print, Branding, and Promotional materials for strategic marketing campaigns, print materials for large outdoor signage and truck decals for their fleet and online marketing. Additionally managed marketing campaigns  for social media, Google Adwords, and SEO including traffic analysis and reporting.']
+      job_desc:["Developed content and graphics and took ownership to maintain wordpress website. Based off of  user data from Google Analytics, coordinated  website redesign to boost viewer engagement and lead conversion.","Spearheaded print, branding, and promotional materials for strategic marketing campaigns, print materials for large outdoor signage and truck decals for their fleet and online marketing for better advertising exposure.","Managed, analysed and reported marketing campaigns  for social media, Google Adwords, and SEO to increase lead conversions.","Developed internal lead conversion tools helping to streamline customer intake and strengthen company communication during each project."]
     },
     {
       company: 'PC Gamerz Hawaii',
@@ -46,7 +46,7 @@ const r_entry = {
       time: 'December 2014 - June 2008',
       company_desc:'Hawaii run E-sports & LAN center',
       position: 'Creative Director & Web Developer',
-      job_desc:['Consulted management team on development strategy focusing on information design and architecture and user experience design. ','Wrote business requirements, designed, developed, tested and deployed business website utilizing WordPress CMS, including FaceBook integration. Curated and developed all online and printed communications using Adobe Creative Suite, HTML, CSS, and JavaScript.']
+      job_desc:["Consulted management team on development strategy focusing on information design and architecture and user experience design to increase customer interest in e-sports.","Authored business requirements, designed, developed, tested and deployed business website utilizing WordPress CMS, including FaceBook integration to gain customer retention and engagement. Curated and developed all online and print marketing using Adobe Creative Suite, HTML, CSS, and JavaScript."]
     }
   ],
   education: [
