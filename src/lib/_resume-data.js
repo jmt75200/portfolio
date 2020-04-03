@@ -1,6 +1,16 @@
 const r_entry = {
   experience: [
     {
+      company: 'Snap! Raise',
+      location: 'seattle, washington',
+      time: 'March 2020 - October 2019',
+      company_desc:'Snap! Raise is the nation’s leading technology platform for school, team, and club fundraising across the United States.',
+      position: 'Software Engineer',
+      job_desc:["Create features on our core Ruby on Rails / VueJS applications",
+      "Collaborate with cross-functional teams to define, design, program, and release new features",
+      "Comfortable releasing production-ready code on tight deadlines with high visibility"]
+    },
+    {
       company: 'JamBios, Inc',
       location: 'oahu, hawaii',
       time: 'August 2019 - June 2015',
