@@ -1,11 +1,6 @@
 const p_entry = [
   {
-    position: 'UX Designer',
-    desc: 'lorem ipsum',
-    images:['image1.png']
-  },
-  {
-    position: 'UI Designer',
+    position: 'UX Developer',
     desc: 'lorem ipsum',
     images:['image1.png']
   },
