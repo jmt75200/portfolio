@@ -38,7 +38,7 @@ const App = props => {
         <div className="Header">
           <div className="intro">
             <h1 className="name-title">Joelle Marie Torneros</h1>
-            <h2>UX/UI Designer | Full Stack Web Developer</h2>
+            <h2>UX Engineer</h2>
             <div className="line-accent-top"></div>
           </div>
         </div>

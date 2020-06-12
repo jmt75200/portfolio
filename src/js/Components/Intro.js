@@ -6,8 +6,7 @@ const intro = () =>{
       <div className="intro-desc">
         {/* <h1>Joelle Torneros</h1> */}
         {/* <h2>UX/UI Designer | Full Stack Web Developer</h2> */}
-        <p>I’m a passionate new media designer turned full stack web developer with 10 years of experience in structuring, developing and implementing business websites and online applications. </p>
-        <p>Seeking an opportunity to leverage my skill set  with modern web technologies, design, marketing and project management in a technology forward company.</p>
+        <p>As a UX Engineer, I have worked on the front end of both web and mobile products and features used by people everyday. The work is challenging, fast-paced, and always evolving as am I. I have demonstrated analytical skills, an unwavering commitment to quality, a collaborative work ethic, and cutting-edge coding skills to every project I have been grateful to be a part of.</p><p>I live and breathe the fundamentals of JavaScript, CSS, and HTML, and have a diverse portfolio of web technologies new and old - all in order to launch innovative features to a global audience.</p>
       </div>
       <div className="bw-slant">
         <img src="./dist/assets/white-slant.png" alt="deco" />
